@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SecureNotes</string>
+    <string name="todo">TODO</string>
+    <string name="general">General</string>
+    <string name="notes">Notes</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="text">Text</string>
+    <string name="logout">logout</string>
+    <string name="revoke_access">revoke_access</string>
+    <string name="welcome">Welcome</string>
+    <string name="web_client_id">946237222804-m7oukcmefrsijk6rgkrv7n7mpnfue8o6.apps.googleusercontent.com</string>
+    <string name="title_activity_add_note">title_activity_add_note</string>
+    <string name="title_activity_note_details">title_activity_note_details</string>
+    <string name="light_theme_form">light_theme_form</string>
+    <string name="dark_theme_form">dark_theme_form</string>
+    <string name="purchase">Submit</string>
+    <string name="valid">Form is valid</string>
+    <string name="invalid">Form is invalid</string>
+
+</resources>

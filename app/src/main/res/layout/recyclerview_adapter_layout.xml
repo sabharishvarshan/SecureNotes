@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/carView"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="8dp"
+    cardView:cardBackgroundColor="#86CED1"
+    cardView:cardCornerRadius="8dp"
+    cardView:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/no"
+            android:layout_width="269dp"
+            android:layout_height="35dp"
+            android:layout_margin="8dp"
+            android:layout_marginRight="72dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+
+            cardView:layout_constraintBottom_toBottomOf="parent"
+            cardView:layout_constraintEnd_toEndOf="parent"
+            cardView:layout_constraintHorizontal_bias="0.23"
+            cardView:layout_constraintRight_toRightOf="parent"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toTopOf="parent"
+            cardView:layout_constraintVertical_bias="0.151"
+            tools:text="@tools:sample/full_names" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="308dp"
+            android:text="Expdate"
+            android:textStyle="bold"
+            cardView:layout_constraintEnd_toEndOf="parent"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toBottomOf="@+id/no" />
+
+        <TextView
+            android:id="@+id/cardname"
+            android:layout_width="256dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginBottom="29dp"
+            android:text="Cardname"
+            android:textStyle="bold|italic"
+            cardView:layout_constraintBottom_toBottomOf="parent"
+            cardView:layout_constraintEnd_toEndOf="parent"
+            cardView:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="39dp"
+            android:layout_height="27dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="CVV"
+            android:textStyle="bold|italic"
+            cardView:layout_constraintBottom_toTopOf="@+id/cardname"
+            cardView:layout_constraintEnd_toEndOf="parent"
+            cardView:layout_constraintStart_toEndOf="@+id/date" />
+
+        <TextView
+            android:id="@+id/cvvno"
+            android:layout_width="64dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginBottom="24dp"
+            android:text="Cvv"
+            cardView:layout_constraintBottom_toTopOf="@+id/cardname"
+            cardView:layout_constraintEnd_toEndOf="parent"
+            cardView:layout_constraintHorizontal_bias="0.425"
+            cardView:layout_constraintStart_toEndOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="13dp"
+            android:text="Delete"
+            cardView:layout_constraintBottom_toBottomOf="parent"
+            cardView:layout_constraintStart_toEndOf="@+id/cardname"
+            cardView:layout_constraintTop_toBottomOf="@+id/cvvno" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

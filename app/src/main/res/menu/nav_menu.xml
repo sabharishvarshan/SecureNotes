@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/general">
+        <menu>
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/ic_event_note_black_24dp"
+                android:title="@string/notes" />
+            <item
+                android:id="@+id/addNote"
+                android:icon="@drawable/ic_add_circle_black_24dp"
+                android:title="Add Note" />
+            <item
+                android:id="@+id/sync"
+                android:icon="@drawable/ic_baseline_credit_card_24"
+                android:title="Add Card" />
+        </menu>
+    </item>
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
